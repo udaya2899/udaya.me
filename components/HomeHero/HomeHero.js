@@ -10,10 +10,9 @@ const HomeHero = () => {
             Software Engineer | Full Stack Web Developer
           </div>
           <div className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-            esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur
-            pariatur doloribus.Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi!
+            Passionate Engineer, Pragmatic Thinker and a Problem Solver who
+            loves team-work and is inspired to find solutions by applying
+            technical knowledge to real-life scenarios.
           </div>
           <div className={styles.logoContainer}>
             <a
@@ -41,7 +40,9 @@ const HomeHero = () => {
             <span>DOWNLOAD RÉSUMÉ</span>
           </a>
         </div>
-        <div className={styles['half-container']}>2</div>
+        <div className={styles['half-container-image']}>
+          <img src="/assets/udaya.png" alt="" />
+        </div>
       </div>
     </div>
   );
