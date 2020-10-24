@@ -1,0 +1,92 @@
+.homeHero-container {
+  margin: 0 5%;
+  background: linear-gradient(134.17deg, #ebf2f9 4.98%, #e5f0f9 94.88%);
+  box-shadow: inset -12px -12px 20px rgba(255, 255, 255, 0.8),
+    inset 10px 10px 24px rgba(166, 180, 200, 0.5);
+  border-radius: 20px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  height: 100%;
+}
+
+.half-container {
+  flex: 1;
+  margin: 50px 0;
+  align-self: flex-end;
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 70px;
+  /* identical to box height, or 130% */
+  letter-spacing: -0.04em;
+  background: -webkit-linear-gradient(180deg, #6deeff 0%, #499afc 75.52%);
+  background: linear-gradient(180deg, #6deeff 0%, #499afc 75.52%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 600;
+  color: #31456a;
+}
+
+.description {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #6681ad;
+}
+
+.miniCard {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8),
+    10px 10px 24px rgba(166, 180, 200, 0.7);
+  border-radius: 5px;
+}
+
+.logoContainer {
+  display: flex;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 15px;
+  margin-top: 30px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8),
+    10px 10px 20px rgba(166, 180, 200, 0.7);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(49, 69, 106, 1);
+}
+
+.button:active,
+.miniCard:active {
+  background: linear-gradient(134.17deg, #ebf2f9 4.98%, #e5f0f9 94.88%);
+  box-shadow: inset -12px -12px 15px rgba(255, 255, 255, 0.8),
+    inset 10px 10px 15px rgba(166, 180, 200, 0.5);
+}

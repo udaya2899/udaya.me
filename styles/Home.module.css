@@ -1,0 +1,9 @@
+.container,
+.main,
+.body-container {
+  height: 100%;
+}
+
+.nav-container {
+  height: 90px;
+}
