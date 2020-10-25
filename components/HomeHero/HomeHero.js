@@ -40,8 +40,9 @@ const HomeHero = () => {
             <span>DOWNLOAD RÉSUMÉ</span>
           </a>
         </div>
+
         <div className={styles['half-container-image']}>
-          <img src="/assets/udaya.png" alt="" />
+          <img src="/assets/udaya.png" alt="" width={300} />
         </div>
       </div>
     </div>

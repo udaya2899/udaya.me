@@ -9,7 +9,7 @@
 
 .inner-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 70%;
   margin: auto;
   height: 100%;
@@ -93,8 +93,15 @@
 }
 
 .half-container-image {
-  display: flex;
-  justify-content: center;
   flex: 1;
-  align-self: flex-end;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.half-container-image > img {
+  border-radius: 50%;
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8),
+    10px 10px 20px rgba(166, 180, 200, 0.7);
 }
