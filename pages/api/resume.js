@@ -2,7 +2,9 @@
 import fs from 'fs';
 
 export default (req, res) => {
-  var data = fs.readFileSync('./public/assets/Udaya_Prakash_N_Resume.pdf');
+  var data = fs.readFileSync(
+    path.resolve('./public/assets/Udaya_Prakash_N_Resume.pdf')
+  );
 
   res.status(200);
   res.setHeader('Content-Type', 'application/pdf');
