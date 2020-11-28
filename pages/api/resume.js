@@ -1,5 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import fs from 'fs';
+import path from 'path';
 
 export default (req, res) => {
   var data = fs.readFileSync(
