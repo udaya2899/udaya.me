@@ -31,13 +31,13 @@ const HomeHero = () => {
             </a>
           </div>
           <a
-            href="/assets/resume.pdf"
+            href="/assets/Udaya_Prakash_N_Resume.pdf"
             download="Udaya Prakash N Resume"
             target="_blank"
             className={styles.button}
           >
             <img height={'30%'} src="/assets/download.svg" alt="Download" />
-            <span>DOWNLOAD RÉSUMÉ</span>
+            <span>DOWNLOAD RESUMÉ</span>
           </a>
         </div>
 

@@ -26,7 +26,6 @@ export default function Home() {
 
         <div className={styles['body-container']}>
           <HomeHero />
-          <div id="skills">Skills</div>
         </div>
       </main>
 
