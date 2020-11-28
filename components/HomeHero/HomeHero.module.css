@@ -97,6 +97,7 @@
   align-items: center;
   display: flex;
   justify-content: flex-end;
+  padding-top: 40px;
 }
 
 .half-container-image > img {
@@ -104,4 +105,20 @@
   background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
   box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8),
     10px 10px 20px rgba(166, 180, 200, 0.7);
+}
+
+@media only screen and (max-width: 768px) {
+  .inner-container {
+    flex-direction: column-reverse;
+  }
+  .half-container-image {
+    justify-content: center;
+  }
+  .half-container-image > img {
+    width: 50%;
+  }
+  .title {
+    font-size: 38px;
+    line-height: normal;
+  }
 }
