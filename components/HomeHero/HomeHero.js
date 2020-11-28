@@ -37,7 +37,7 @@ const HomeHero = () => {
             className={styles.button}
           >
             <img height={'30%'} src="/assets/download.svg" alt="Download" />
-            <span>DOWNLOAD RÉSUMÉ</span>
+            <span>DOWNLOAD RESUMÉ</span>
           </a>
         </div>
 

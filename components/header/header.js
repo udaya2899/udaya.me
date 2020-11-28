@@ -16,7 +16,7 @@ const Header = () => {
         </div>
 
         {/* Navbar Links */}
-        <ul id="nav-menu">
+        {/* <ul id="nav-menu">
           <li className={router.asPath == '/#home' ? styles.active : ''}>
             <Link href="/#home">Home</Link>
           </li>
@@ -35,7 +35,7 @@ const Header = () => {
           <li className={router.asPath == '/#blog' ? styles.active : ''}>
             <Link href="/#blog">Blog</Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
   );
